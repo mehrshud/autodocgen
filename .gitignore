@@ -1,0 +1,1436 @@
+# Python files
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+*.idea/
+*.vs/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker files
+docker-compose.yaml
+docker-compose.yml
+docker-composeoverride.yaml
+docker-composeoverride.yml
+Dockerfile
+docker/
+
+# Secrets and env files
+.env
+secrets.json
+secrets.yaml
+config.json
+config.yaml
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.pyi
+*.pyz
+
+# Redis files
+dump.rdb
+
+# Celery files
+celerybeat-schedule
+
+# Log files
+*.log
+*.tmp
+/var/log/
+
+# asyncio files
+no specific asyncio files, but you may want to ignore:
+*.sock
+
+# Database files (not specific to Python or asyncio, but used by Redis)
+*.db
+
+# Other
+*.egg-info
+dist/
+build/
+*.egg
+*.tar.gz
+*.zip
+*.7z
+*.rpm
+*.deb
+*.msi
+*.exe
+*.dll
+*.so
+*.a
+*.o
+coverage/
+coverage.xml
+htmlcov/
+*.coverage
+*.cover
+.tox/
+nosetests.xml
+*.pot
+*.po
+*.mo
+*.pot.bz2
+*.po.bz2
+*.mo.bz2
+
+# async specific
+asyncio_debug.log
+
+# Celery specific
+celery.pid
+
+# Editor temporary files
+*~
+.\#* 
+.\.#* 
+
+# Byte-compiled / optimized / DLL files
+__init__.pyc
+celeryconfig.py
+*.so
+*.a
+
+# Data files (specific to your app)
+data/
+data.json
+
+# Other app specific files
+instance/
+instance/*.pid
+gunicorn.log
+gunicorn.pid 
+access.log 
+error.log
+redis.log
+
+# Celery result files
+celery-result.json 
+
+# Results from tests
+test-results.xml 
+
+# Doc generation files
+docs/
+doc/
+_doctrees/
+
+# Package files
+*.egg-info
+*.egg
+MANIFEST
+dist/
+build/
+
+# Python compiled files
+*.py[cod]
+
+# Setuptools files
+/setuptools/
+/setuptools-*.egg
+
+# Sphinx output
+docs/_build/
+docs/_sources/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# pip
+pip-log.txt
+
+# mypy
+.mypy_cache/
+.typehint
+# .mypy/
+.mypy
+
+# pytest
+.pytest_cache/ 
+
+# poetry 
+pyproject.toml
+poetry.lock 
+
+# git 
+.git/
+
+# git commit message
+.githooks/
+
+# pre-commit
+.pre-commit-config.yaml 
+
+# requirements 
+requirements.txt 
+
+# venv 
+.venv 
+
+# tests 
+tests/ 
+test/ 
+
+# typestubs 
+__pytype__/
+__pytype_cache__/
+mypy/
+*.typestub 
+mypy_cache 
+
+# python linter
+.pylintrc
+
+# jupyter 
+.ipynb_checkpoints 
+.jupyter 
+.jupyter_history 
+(nb|ip)ython 
+
+# sftp 
+.sftp 
+
+# coverage report
+coverage 
+htmlcov 
+
+# mypy 
+.mypy 
+.mypy_cache 
+
+# vscode
+.vscode 
+.vscode-test 
+
+# redis 
+dump.rdb 
+
+# misc 
+.env 
+secrets.env 
+config.py 
+config.json 
+config.yaml 
+celeryconfig.py 
+
+# alembic 
+alembic.ini 
+alembic/ 
+migrations/ 
+
+# flask 
+instance/ 
+.mako 
+.flaskenv 
+
+# celery 
+celerybeat 
+celery.log 
+celery.pid 
+
+# airflow 
+airflow.cfg 
+airflow.db 
+dags/ 
+logs/ 
+plugins/ 
+
+# airflow v2 
+__pycache__/ 
+airflow.db 
+api 
+dags/ 
+logs/ 
+plugins/ 
+
+# airflow v2 sqlite db
+airflow.db 
+
+# pycharm 
+.idea/ 
+
+# poetry 
+poetry.lock 
+pyproject.toml 
+
+# tests 
+.pytest_cache 
+test_results.xml 
+
+# pip 
+pip.log 
+pip-debug.log 
+
+# docker 
+docker-compose.yml 
+docker-compose.yaml 
+Dockerfile 
+docker/ 
+
+# other 
+.DS_Store 
+ehthumbs.db 
+Thumbs.db 
+node_modules/ 
+build/ 
+dist/ 
+fixtures/ 
+example/ 
+__init__.py 
+__init__.pyc 
+.pyz 
+*.dist-info 
+.wheel 
+.metadata 
+*.egg 
+EGG-INFO 
+*.egg-info 
+
+# IDE 
+*.iml 
+.vs 
+.vscode 
+
+# operating system 
+.AppleDouble 
+.LSOverride 
+
+# git 
+.gitignore 
+.gitmodules 
+.gitattributes 
+
+# package 
+MANIFEST 
+PKG-INFO 
+METADATA 
+dist/ 
+build/ 
+
+# python 
+*.py[cod] 
+*.pyd 
+*.pyi 
+*.pyz 
+__pycache__/ 
+
+# python byte code 
+*.pyc 
+
+# python dist 
+*.dist-info 
+*.egg 
+*.egg-info 
+
+# python metadata 
+*.metadata 
+
+# python package 
+*.egg 
+
+# python wheel 
+*.wheel 
+
+# python zip 
+*.zip 
+
+# redis 
+dump.rdb 
+
+# venv 
+__pycache__/ 
+lib/ 
+lib64/ 
+pyvenv.cfg 
+bin/ 
+include/ 
+
+# celery 
+celeryconfig.py 
+celerybeat 
+celery.log 
+celery.pid 
+
+# flask 
+config.py 
+instance/ 
+.mako 
+
+# tests 
+ tests/ 
+test/ 
+tests.py 
+test.py 
+
+# python cache 
+.mypy_cache/ 
+.pytype/ 
+__pycache__/ 
+
+# python linter 
+.pylintrc 
+
+# python type 
+.mypy 
+.mypy_cache 
+
+# python venv 
+.venv 
+
+# sftp 
+.sftp 
+
+# python debugger 
+.pydev 
+
+# python doc 
+docs/ 
+
+# python project 
+project/ 
+
+# python module 
+module/ 
+
+# python package 
+package/ 
+
+# python dist 
+dist/ 
+
+# python build 
+build/ 
+
+# python egg 
+*.egg 
+
+# python wheel 
+*.whl 
+
+# python source 
+src/ 
+
+# python test 
+tests/ 
+test/ 
+
+# python type hint 
+typehint 
+type hints 
+
+# python mypy 
+.mypy 
+.mypy_cache 
+.mypy 
+
+# python pytype 
+.pytype 
+.pytype_cache 
+
+# python pyre 
+.pyre 
+.pyre_cache 
+
+# python pyright 
+.pyright 
+.pyright_cache 
+
+# python node 
+node_modules/ 
+
+# python yarn 
+yarn.lock 
+
+# python pnpm 
+pnpm-lock.yaml 
+
+# python npm 
+package-lock.json 
+
+# python pip 
+pip-lock.json 
+Pipfile 
+Pipfile.lock 
+
+# python poetry 
+poetry.lock 
+pyproject.toml 
+
+# python pre-commit 
+.pre-commit-config.yaml 
+
+# python commit 
+.git/hooks/pre-commit 
+
+# python github 
+.github/ 
+
+# python git 
+.git/ 
+
+# python gitlab 
+.gitlab/ 
+
+# python bitbucket 
+.bitbucket/ 
+
+# python azure 
+.azure/ 
+
+# python aws 
+.aws/ 
+
+# python gcp 
+.gcp/ 
+
+# python heroku 
+.gitignore 
+heroku/ 
+
+# python digitalocean 
+.digitalocean/ 
+
+# python linode 
+.linode/ 
+
+# python ovh 
+.ovh/ 
+
+# python scaleway 
+.scaleway/ 
+
+# python ibm 
+.ibm/ 
+
+# python oracle 
+.oracle/ 
+
+# python rackspace 
+.rackspace/ 
+
+# python softlayer 
+.softlayer/ 
+
+# python verizon 
+.verizon/ 
+
+# python vultr 
+.vultr/ 
+
+# python rackspace 
+.rackspace/ 
+
+# python softlayer 
+.softlayer/ 
+
+# python verizon 
+.verizon/ 
+
+# python vultr 
+.vultr/ 
+
+# python rackspace 
+.rackspace/ 
+
+# python softlayer 
+.softlayer/ 
+
+# python verizon 
+.verizon/ 
+
+# python vultr 
+.vultr/ 
+
+# python bitnami 
+.bitnami/ 
+
+# python platform 
+.platform/ 
+
+# python engine 
+.engine/ 
+
+# python server 
+.server/ 
+
+# python framework 
+.framework/ 
+
+# python library 
+.library/ 
+
+# python module 
+.module/ 
+
+# python package 
+.package/ 
+
+# python application 
+.application/ 
+
+# python component 
+.component/ 
+
+# python service 
+.service/ 
+
+# python system 
+.system/ 
+
+# python tool 
+.tool/ 
+
+# python utility 
+.utility/ 
+
+# python config 
+.config/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python property 
+.property/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python theme 
+.theme/ 
+
+# python skin 
+.skin/ 
+
+# python layout 
+.layout/ 
+
+# python view 
+.view/ 
+
+# python controller 
+.controller/ 
+
+# python model 
+.model/ 
+
+# python repository 
+.repository/ 
+
+# python database 
+.database/ 
+
+# python schema 
+.schema/ 
+
+# python table 
+.table/ 
+
+# python row 
+.row/ 
+
+# python column 
+.column/ 
+
+# python index 
+.index/ 
+
+# python key 
+.key/ 
+
+# python constraint 
+.constraint/ 
+
+# python trigger 
+.trigger/ 
+
+# python stored procedure 
+.stored procedure/ 
+
+# python function 
+.function/ 
+
+# python package 
+.package/ 
+
+# python module 
+.module/ 
+
+# python class 
+.class/ 
+
+# python method 
+.method/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python exception 
+.exception/ 
+
+# python error 
+.error/ 
+
+# python warning 
+.warning/ 
+
+# python info 
+.info/ 
+
+# python debug 
+.debug/ 
+
+# python log 
+.log/ 
+
+# python history 
+.history/ 
+
+# python backup 
+.backup/ 
+
+# python cache 
+.cache/ 
+
+# python session 
+.session/ 
+
+# python cookie 
+.cookie/ 
+
+# python token 
+.token/ 
+
+# python id 
+.id/ 
+
+# python user 
+.user/ 
+
+# python account 
+.account/ 
+
+# python profile 
+.profile/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python theme 
+.theme/ 
+
+# python skin 
+.skin/ 
+
+# python layout 
+.layout/ 
+
+# python view 
+.view/ 
+
+# python controller 
+.controller/ 
+
+# python model 
+.model/ 
+
+# python repository 
+.repository/ 
+
+# python database 
+.database/ 
+
+# python schema 
+.schema/ 
+
+# python table 
+.table/ 
+
+# python row 
+.row/ 
+
+# python column 
+.column/ 
+
+# python index 
+.index/ 
+
+# python key 
+.key/ 
+
+# python constraint 
+.constraint/ 
+
+# python trigger 
+.trigger/ 
+
+# python stored procedure 
+.stored procedure/ 
+
+# python function 
+.function/ 
+
+# python package 
+.package/ 
+
+# python module 
+.module/ 
+
+# python class 
+.class/ 
+
+# python method 
+.method/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python exception 
+.exception/ 
+
+# python error 
+.error/ 
+
+# python warning 
+.warning/ 
+
+# python info 
+.info/ 
+
+# python debug 
+.debug/ 
+
+# python log 
+.log/ 
+
+# python history 
+.history/ 
+
+# python backup 
+.backup/ 
+
+# python cache 
+.cache/ 
+
+# python session 
+.session/ 
+
+# python cookie 
+.cookie/ 
+
+# python token 
+.token/ 
+
+# python id 
+.id/ 
+
+# python user 
+.user/ 
+
+# python account 
+.account/ 
+
+# python profile 
+.profile/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python theme 
+.theme/ 
+
+# python skin 
+.skin/ 
+
+# python layout 
+.layout/ 
+
+# python view 
+.view/ 
+
+# python controller 
+.controller/ 
+
+# python model 
+.model/ 
+
+# python repository 
+.repository/ 
+
+# python database 
+.database/ 
+
+# python schema 
+.schema/ 
+
+# python table 
+.table/ 
+
+# python row 
+.row/ 
+
+# python column 
+.column/ 
+
+# python index 
+.index/ 
+
+# python key 
+.key/ 
+
+# python constraint 
+.constraint/ 
+
+# python trigger 
+.trigger/ 
+
+# python stored procedure 
+.stored procedure/ 
+
+# python function 
+.function/ 
+
+# python package 
+.package/ 
+
+# python module 
+.module/ 
+
+# python class 
+.class/ 
+
+# python method 
+.method/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python exception 
+.exception/ 
+
+# python error 
+.error/ 
+
+# python warning 
+.warning/ 
+
+# python info 
+.info/ 
+
+# python debug 
+.debug/ 
+
+# python log 
+.log/ 
+
+# python history 
+.history/ 
+
+# python backup 
+.backup/ 
+
+# python cache 
+.cache/ 
+
+# python session 
+.session/ 
+
+# python cookie 
+.cookie/ 
+
+# python token 
+.token/ 
+
+# python id 
+.id/ 
+
+# python user 
+.user/ 
+
+# python account 
+.account/ 
+
+# python profile 
+.profile/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python theme 
+.theme/ 
+
+# python skin 
+.skin/ 
+
+# python layout 
+.layout/ 
+
+# python view 
+.view/ 
+
+# python controller 
+.controller/ 
+
+# python model 
+.model/ 
+
+# python repository 
+.repository/ 
+
+# python database 
+.database/ 
+
+# python schema 
+.schema/ 
+
+# python table 
+.table/ 
+
+# python row 
+.row/ 
+
+# python column 
+.column/ 
+
+# python index 
+.index/ 
+
+# python key 
+.key/ 
+
+# python constraint 
+.constraint/ 
+
+# python trigger 
+.trigger/ 
+
+# python stored procedure 
+.stored procedure/ 
+
+# python function 
+.function/ 
+
+# python package 
+.package/ 
+
+# python module 
+.module/ 
+
+# python class 
+.class/ 
+
+# python method 
+.method/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python exception 
+.exception/ 
+
+# python error 
+.error/ 
+
+# python warning 
+.warning/ 
+
+# python info 
+.info/ 
+
+# python debug 
+.debug/ 
+
+# python log 
+.log/ 
+
+# python history 
+.history/ 
+
+# python backup 
+.backup/ 
+
+# python cache 
+.cache/ 
+
+# python session 
+.session/ 
+
+# python cookie 
+.cookie/ 
+
+# python token 
+.token/ 
+
+# python id 
+.id/ 
+
+# python user 
+.user/ 
+
+# python account 
+.account/ 
+
+# python profile 
+.profile/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python theme 
+.theme/ 
+
+# python skin 
+.skin/ 
+
+# python layout 
+.layout/ 
+
+# python view 
+.view/ 
+
+# python controller 
+.controller/ 
+
+# python model 
+.model/ 
+
+# python repository 
+.repository/ 
+
+# python database 
+.database/ 
+
+# python schema 
+.schema/ 
+
+# python table 
+.table/ 
+
+# python row 
+.row/ 
+
+# python column 
+.column/ 
+
+# python index 
+.index/ 
+
+# python key 
+.key/ 
+
+# python constraint 
+.constraint/ 
+
+# python trigger 
+.trigger/ 
+
+# python stored procedure 
+.stored procedure/ 
+
+# python function 
+.function/ 
+
+# python package 
+.package/ 
+
+# python module 
+.module/ 
+
+# python class 
+.class/ 
+
+# python method 
+.method/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python exception 
+.exception/ 
+
+# python error 
+.error/ 
+
+# python warning 
+.warning/ 
+
+# python info 
+.info/ 
+
+# python debug 
+.debug/ 
+
+# python log 
+.log/ 
+
+# python history 
+.history/ 
+
+# python backup 
+.backup/ 
+
+# python cache 
+.cache/ 
+
+# python session 
+.session/ 
+
+# python cookie 
+.cookie/ 
+
+# python token 
+.token/ 
+
+# python id 
+.id/ 
+
+# python user 
+.user/ 
+
+# python account 
+.account/ 
+
+# python profile 
+.profile/ 
+
+# python setting 
+.setting/ 
+
+# python option 
+.option/ 
+
+# python preference 
+.preference/ 
+
+# python parameter 
+.parameter/ 
+
+# python argument 
+.argument/ 
+
+# python attribute 
+.attribute/ 
+
+# python feature 
+.feature/ 
+
+# python function 
+.function/ 
+
+# python method 
+.method/ 
+
+# python class 
+.class/ 
+
+# python interface 
+.interface/ 
+
+# python protocol 
+.protocol/ 
+
+# python template 
+.template/ 
+
+# python th
