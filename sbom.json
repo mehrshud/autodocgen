@@ -1,0 +1,14 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-18T13:57:13.729407",
+    "component": {
+      "name": "AutoDocGen",
+      "version": "1.0.0",
+      "type": "application"
+    }
+  },
+  "components": []
+}
